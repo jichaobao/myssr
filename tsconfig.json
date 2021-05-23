@@ -1,0 +1,18 @@
+{
+        "compilerOptions": {
+                "esModuleInterop": true,
+                "experimentalDecorators": true,
+                "noImplicitThis": true,
+                "noImplicitAny": true,
+                "baseUrl": "./src/server",
+                "paths": {
+                        "@interfaces/*": [
+                                "interface/*"
+                        ]
+                }
+        },
+        "include": [
+                "src/**/*.ts",
+                "src/**/*.d.ts"
+        ]
+}
